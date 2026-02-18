@@ -8,6 +8,7 @@ class App:
     FG_COLOR = "#ffffff"
 
     def __init__(self):
+        self.qr_code_img = None
         ctk.set_appearance_mode("system")
         self.root = ctk.CTk()
         self.root.title("QR Code Generator")
